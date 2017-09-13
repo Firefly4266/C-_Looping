@@ -39,3 +39,4 @@ namespace Looping
         }
     }
 }
+//This would be better accomplished with an if else statement.  The switch statement is limited in terms of expandability.
