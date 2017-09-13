@@ -14,11 +14,11 @@ namespace Looping
             {
                 for (var space = 0; space < 11 - row; space +=2)
                 {
-                    Console.Write(" ");
+                    Console.Write("  ");
                 }
                 for (int column = 6; column < row + 6; column++)
                 {
-                    Console.Write("*");
+                    Console.Write(" *");
                 }
                 Console.WriteLine();
             }
