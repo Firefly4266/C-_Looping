@@ -10,7 +10,6 @@ namespace Looping
     {
         static void Main(string[] args)
         {
-            //string O, F, M, AL, X;
             Console.WriteLine(" Greetings user, please select from the following options:\n");
             Console.WriteLine(" O (nothing to report), F (firewall issue), M (malware detection), AL (account lockout), X (exit):  ");
             var userInput = Console.ReadLine().ToUpper();
